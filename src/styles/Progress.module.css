@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7b8786;
+  display: flex;
+  align-items: center;
+}
+
+.percent {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-left: 35px;
+  color: #00b686;
+}
+
+.squareContainer {
+  display: flex;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background-color: #dcdcdc;
+  margin-right: 2px;
+}
+
+.square.active {
+  background-color: #00b686;
+}

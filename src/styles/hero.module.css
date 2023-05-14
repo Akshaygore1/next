@@ -1,0 +1,65 @@
+.heroContainer {
+  /* background-color: #f5f5f5; */
+  margin: 40px 35px;
+  padding: 10px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #04433b;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.button {
+  width: 147px;
+  height: 40px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  background: #00b686;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.profile {
+  position: absolute;
+  width: 246px;
+  height: 101px;
+  background-color: white; /* Replace with your profile image or styles */
+  top: 55%; /* Adjust the vertical position as needed */
+  left: 15%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.heroImg {
+  width: 1378px;
+  height: 191px;
+  /* background-color: red; */
+  background-image: url(../assets//heroImg.png);
+  border-radius: 10px;
+}

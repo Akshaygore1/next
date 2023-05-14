@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.circleIconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.chevronIconContainer {
+  display: flex;
+  align-items: center;
+  color: #657372;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mailInboxIconContainer,
+.notificationIconContainer,
+.infoIconContainer,
+.searchIconContainer,
+.avatarContainer {
+  margin-left: 1em;
+}
