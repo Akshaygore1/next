@@ -45,3 +45,33 @@
 .square.active {
   background-color: #00b686;
 }
+
+@media only screen and (max-width: 480px) {
+  .name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7b8786;
+    display: flex;
+    align-items: center;
+  }
+  .percent {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-left: 35px;
+    color: #00b686;
+  }
+
+  .square {
+    width: 8px;
+    height: 8px;
+    background-color: #dcdcdc;
+    margin-right: 2px;
+  }
+}

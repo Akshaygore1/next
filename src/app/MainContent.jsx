@@ -23,7 +23,7 @@ const MainContent = () => {
   return (
     <div className={styles.menuContainer}>
       <div className={styles.container1}>
-        <div className={styles.child1}>Company Profile</div>
+        <div className={styles.child1}>Project Scope Recape</div>
         <div>
           <ProgressBar />
         </div>

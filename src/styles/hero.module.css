@@ -63,3 +63,56 @@
   background-image: url(../assets//heroImg.png);
   border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+  .profile {
+    position: absolute;
+    width: 170.5px;
+    height: 70px;
+    background-color: white; /* Replace with your profile image or styles */
+    top: 38%; /* Adjust the vertical position as needed */
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .title {
+    color: #04433b;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .button {
+    width: 114px;
+    height: 32px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    background: #00b686;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .heroImg {
+    width: 340px;
+    height: 82px;
+    background-image: url(../assets//heroImg.png);
+    border-radius: 10px;
+  }
+  .profile {
+    position: absolute;
+    width: 116px;
+    height: 47.63px;
+    background-color: white; /* Replace with your profile image or styles */
+    top: 33%; /* Adjust the vertical position as needed */
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 10px;
+  }
+}
